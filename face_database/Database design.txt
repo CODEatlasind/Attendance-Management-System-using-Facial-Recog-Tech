@@ -1,0 +1,1 @@
+Use roll number and intials of first name and last name as the folder name >> Use name and version(1,2,3) of the .png picture file as the internal file name seperated by underscore as depicted by the example folder and file(remove example file before use).
