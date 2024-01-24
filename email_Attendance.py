@@ -8,7 +8,8 @@ sub = """Attendance!"""
 
 yag = yagmail.SMTP(user=sender, password=pwd)
 
-df = pandas.read_csv("C:\Attendance_Tracker\mail_list.csv")
+# "mail_list.csv" is a csv file containing the names and emails of the recepients
+df = pandas.read_csv("C:\Attendance_Tracker\mail_list.csv") 
 
 
 def dispatch_Email():
